@@ -20,12 +20,11 @@ body{
   grid-gap: 30px;
   margin-left: 150px;
   margin-top: 200px;
-
-
+  background-color: white;
 }
-.food{
-    border:1px solid gray;
-    text-align: center;
+ .food{
+ 
+    text-align: center; 
 }
 .food img{
     width: 300px;
