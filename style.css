@@ -1,0 +1,35 @@
+body{
+    background-color: #ffc400;
+}
+
+
+.style-button{
+    background-color: darkblue;
+    color: white;
+}
+#style-search{
+    float: right;
+    padding-right: 50px;
+    padding-top: 50px;
+    
+}
+
+#food-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  margin-left: 150px;
+  margin-top: 200px;
+
+
+}
+.food{
+    border:1px solid gray;
+    text-align: center;
+}
+.food img{
+    width: 300px;
+}
+.food h3{
+    font-size: 20px;
+}
